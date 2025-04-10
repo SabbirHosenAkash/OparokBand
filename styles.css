@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0e0e0e;
+  color: #fff;
+}
+
+.main-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.logo {
+  width: 120px;
+  display: block;
+  margin: 0 auto 1rem;
+}
+
+.hero {
+  text-align: center;
+}
+
+.tagline {
+  font-style: italic;
+  color: #aaa;
+}
+
+.members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 2rem 0;
+}
+
+.member-card {
+  background: #1e1e1e;
+  border-radius: 12px;
+  padding: 1rem;
+  width: 260px;
+  text-align: center;
+  margin-bottom: 2rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.member-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.role {
+  font-weight: bold;
+  color: #e0c08d;
+}
+
+.bio {
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.profile-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #00c6ff;
+  text-decoration: none;
+}
+
+.profile-link:hover {
+  text-decoration: underline;
+}
+
+.about, .album, .event, .contact {
+  margin-bottom: 2rem;
+}
+
+.event-img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.social-links a {
+  display: inline-block;
+  margin-right: 1rem;
+  color: #4dd0e1;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
